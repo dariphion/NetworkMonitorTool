@@ -14,7 +14,7 @@ public class Main {
 
         while(true)
         {
-            ping.isHostAvailable("8.8.8.8", 443, 2000);
+            ping.isHostAvailable("8.8.8.8", 443, 300);
             Thread.sleep(2000);
         }
 
